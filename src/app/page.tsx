@@ -360,7 +360,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="max-w-5xl mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
                 src: "/images/residential_scaffolding.webp",
@@ -387,7 +387,7 @@ export default function HomePage() {
                       src={img.src}
                       alt={img.title}
                       fill
-                      sizes="(max-w-768px) 100vw, (max-w-1200px) 33vw, 25vw"
+                      sizes="(max-w-768px) 100vw, 33vw"
                       className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
                       loading="lazy"
                     />
