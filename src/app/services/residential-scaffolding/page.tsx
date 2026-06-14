@@ -104,7 +104,7 @@ export default function ResidentialScaffoldingPage() {
               <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-2 shadow-xl">
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-900">
                   <Image
-                    src="/images/residential_scaffolding.webp"
+                    src="/images/residential_scaffold.webp"
                     alt="Active residential construction scaffolding setup"
                     fill
                     sizes="(max-w-768px) 100vw, 33vw"

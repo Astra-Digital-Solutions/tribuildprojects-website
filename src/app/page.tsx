@@ -205,7 +205,7 @@ export default function HomePage() {
                   {/* Hero Image: Residential Scaffolding and Fencing */}
                   <div className="relative w-full h-full min-h-[350px] lg:min-h-0 flex-grow overflow-hidden rounded-xl bg-slate-900">
                     <Image
-                      src="/images/residential_scaffolding.webp"
+                      src="/images/residential_scaffold.webp"
                       alt="Residential building frame under construction with safety scaffolding"
                       fill
                       priority
@@ -363,7 +363,7 @@ export default function HomePage() {
           <div className="max-w-5xl mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                src: "/images/residential_scaffolding.webp",
+                src: "/images/residential_scaffold.webp",
                 title: "Residential Scaffold Setup",
                 desc: "Edge protection & multi-tier access scaffold configuration.",
               },
