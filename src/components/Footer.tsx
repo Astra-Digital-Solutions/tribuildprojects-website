@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, Shield, HelpCircle } from "lucide-react";
 
 const services = [
@@ -23,10 +24,12 @@ export default function Footer() {
           {/* Company Info column */}
           <div className="space-y-4 md:col-span-1 lg:col-span-2">
             <Link href="/" className="group flex items-center gap-3">
-              <img
+              <Image
                 src="/images/logo.webp"
                 alt="Tri Build Projects Logo"
-                className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                width={48}
+                height={48}
+                className="object-contain transition-transform duration-300 group-hover:scale-105"
               />
               <div className="flex flex-col">
                 <span className="text-base font-black tracking-tight uppercase text-white leading-none">

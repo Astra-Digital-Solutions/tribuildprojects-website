@@ -11,7 +11,6 @@ import {
   CheckCircle2,
   Clock,
   Compass,
-  FileText,
   UserCheck,
   Fence,
 } from "lucide-react";
@@ -294,10 +293,12 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-3 shadow-2xl">
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-900">
-                  <img
+                  <Image
                     src="/images/builder_access.webp"
                     alt="Safe steel scaffolding access stair tower leading to residential roof level"
-                    className="h-full w-full object-cover object-center"
+                    fill
+                    sizes="(max-w-768px) 100vw, 50vw"
+                    className="object-cover object-center"
                     loading="lazy"
                   />
                 </div>
@@ -393,12 +394,14 @@ export default function HomePage() {
                 className="relative group overflow-hidden rounded-2xl border border-slate-800 bg-slate-900 p-2 transition-all duration-300 hover:border-accent-amber/20"
               >
                 <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-slate-950">
-                  <img
-                    src={img.src}
-                    alt={img.title}
-                    className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy"
-                  />
+                    <Image
+                      src={img.src}
+                      alt={img.title}
+                      fill
+                      sizes="(max-w-768px) 100vw, (max-w-1200px) 33vw, 25vw"
+                      className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                      loading="lazy"
+                    />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 flex flex-col justify-end">
                     <h4 className="text-sm font-bold text-white">{img.title}</h4>
                     <p className="text-xs text-slate-300 mt-1">{img.desc}</p>

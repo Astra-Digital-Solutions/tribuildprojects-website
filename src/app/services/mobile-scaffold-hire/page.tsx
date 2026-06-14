@@ -1,7 +1,8 @@
 import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Phone, Mail, CheckCircle2, Shield, Calendar, ArrowLeft } from "lucide-react";
+import { Phone, CheckCircle2, Shield, Calendar, ArrowLeft } from "lucide-react";
+import Image from "next/image";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
@@ -101,10 +102,12 @@ export default function MobileScaffoldPage() {
               {/* Image box */}
               <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-2 shadow-xl">
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-900">
-                  <img
+                  <Image
                     src="/images/mobile_scaffold.webp"
                     alt="Lightweight mobile scaffold tower application for residential painting work"
-                    className="h-full w-full object-cover object-center"
+                    fill
+                    sizes="(max-w-768px) 100vw, 33vw"
+                    className="object-cover object-center"
                     loading="lazy"
                   />
                 </div>

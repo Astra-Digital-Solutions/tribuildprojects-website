@@ -55,7 +55,7 @@ export default function ContactPage() {
       } else {
         setError(result.message || "Failed to submit. Please check your credentials.");
       }
-    } catch (err) {
+    } catch {
       setError("A network error occurred. Please try again.");
     } finally {
       setLoading(false);

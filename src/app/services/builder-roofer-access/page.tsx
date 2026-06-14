@@ -1,7 +1,8 @@
 import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Phone, Mail, CheckCircle2, Shield, Calendar, ArrowLeft } from "lucide-react";
+import { Phone, CheckCircle2, Shield, Calendar, ArrowLeft } from "lucide-react";
+import Image from "next/image";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
@@ -49,7 +50,7 @@ export default function BuilderRooferAccessPage() {
               <div className="h-1 w-20 bg-accent-amber"></div>
               
               <p className="text-base sm:text-lg text-slate-300 leading-relaxed">
-                Residential building sites are busy and require multi-trade coordination. Tri Build Projects designs access scaffolding systems customized to the precise stages of a builder's and roofer's workflow to avoid delays.
+                Residential building sites are busy and require multi-trade coordination. Tri Build Projects designs access scaffolding systems customized to the precise stages of a builder&apos;s and roofer&apos;s workflow to avoid delays.
               </p>
               
               <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
@@ -80,7 +81,7 @@ export default function BuilderRooferAccessPage() {
               <div className="space-y-4 pt-4">
                 <h3 className="text-lg font-bold text-white">Streamline Your Worksite</h3>
                 <p className="text-sm text-slate-400 leading-relaxed">
-                  Scaffolding shouldn't get in the way. By consulting with you during the layout planning phase, we build scaffolding frames that allow plasterers, carpenters, and roofers to work in tandem. This increases speed on site and guarantees that deadlines are met safely.
+                  Scaffolding shouldn&apos;t get in the way. By consulting with you during the layout planning phase, we build scaffolding frames that allow plasterers, carpenters, and roofers to work in tandem. This increases speed on site and guarantees that deadlines are met safely.
                 </p>
               </div>
             </div>
@@ -90,10 +91,12 @@ export default function BuilderRooferAccessPage() {
               {/* Image box */}
               <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-2 shadow-xl">
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-900">
-                  <img
+                  <Image
                     src="/images/builder_access.webp"
                     alt="Custom scaffolding solutions for builder and roofer height access"
-                    className="h-full w-full object-cover object-center"
+                    fill
+                    sizes="(max-w-768px) 100vw, 33vw"
+                    className="object-cover object-center"
                     loading="lazy"
                   />
                 </div>

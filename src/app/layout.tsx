@@ -51,7 +51,7 @@ export default function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params?: any;
+  params?: unknown;
 }>) {
   return (
     <html lang="en-AU" className="h-full antialiased dark">

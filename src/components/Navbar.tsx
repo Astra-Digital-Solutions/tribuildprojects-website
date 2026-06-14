@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, Phone, ShieldCheck, ChevronDown } from "lucide-react";
 
 const services = [
@@ -26,10 +27,13 @@ export default function Navbar() {
           {/* Logo / Brand Name */}
           <div className="flex items-center">
             <Link href="/" className="group flex items-center gap-3">
-              <img
+              <Image
                 src="/images/logo.webp"
                 alt="Tri Build Projects Logo"
-                className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                width={48}
+                height={48}
+                priority
+                className="object-contain transition-transform duration-300 group-hover:scale-105"
               />
               <div className="flex flex-col">
                 <span className="text-lg font-black tracking-tight uppercase text-white sm:text-xl leading-none">
