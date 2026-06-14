@@ -24,7 +24,7 @@ export default function Footer() {
           <div className="space-y-4 md:col-span-1 lg:col-span-2">
             <Link href="/" className="group flex items-center gap-3">
               <img
-                src="/images/logo.png"
+                src="/images/logo.webp"
                 alt="Tri Build Projects Logo"
                 className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />

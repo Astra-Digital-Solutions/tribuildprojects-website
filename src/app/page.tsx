@@ -211,11 +211,13 @@ export default function HomePage() {
                 <div className="relative flex-grow overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-3 shadow-2xl flex flex-col">
                   {/* Hero Image: Residential Scaffolding and Hoarding */}
                   <div className="relative w-full h-full min-h-[350px] lg:min-h-0 flex-grow overflow-hidden rounded-xl bg-slate-900">
-                    <img
-                      src="/images/residential_scaffolding.png"
+                    <Image
+                      src="/images/residential_scaffolding.webp"
                       alt="Residential building frame under construction with safety scaffolding"
-                      className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-500 hover:scale-105"
-                      loading="eager"
+                      fill
+                      priority
+                      sizes="(max-w-768px) 100vw, 50vw"
+                      className="object-cover object-center transition-transform duration-500 hover:scale-105"
                     />
                     {/* Caption Overlay */}
                     <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950 to-transparent p-4">
@@ -293,7 +295,7 @@ export default function HomePage() {
               <div className="relative overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-3 shadow-2xl">
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-900">
                   <img
-                    src="/images/builder_access.png"
+                    src="/images/builder_access.webp"
                     alt="Safe steel scaffolding access stair tower leading to residential roof level"
                     className="h-full w-full object-cover object-center"
                     loading="lazy"
@@ -366,22 +368,22 @@ export default function HomePage() {
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
               {
-                src: "/images/residential_scaffolding.png",
+                src: "/images/residential_scaffolding.webp",
                 title: "Residential Scaffold Setup",
                 desc: "Edge protection & multi-tier access scaffold configuration.",
               },
               {
-                src: "/images/working_platforms.png",
+                src: "/images/working_platforms.webp",
                 title: "Safe Working Platforms",
                 desc: "Wide platform configuration for masonry and framing access.",
               },
               {
-                src: "/images/site_hoarding.png",
+                src: "/images/site_hoarding.webp",
                 title: "Temporary Site Hoarding",
                 desc: "Solid boundary panels and safety hoarding for site containment.",
               },
               {
-                src: "/images/temporary_fence.png",
+                src: "/images/temporary_fence.webp",
                 title: "Temporary Fence Hire",
                 desc: "Durable galvanized mesh fencing panels and gates.",
               },

@@ -102,7 +102,7 @@ export default function MobileScaffoldPage() {
               <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-2 shadow-xl">
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-900">
                   <img
-                    src="/images/mobile_scaffold.png"
+                    src="/images/mobile_scaffold.webp"
                     alt="Lightweight mobile scaffold tower application for residential painting work"
                     className="h-full w-full object-cover object-center"
                     loading="lazy"

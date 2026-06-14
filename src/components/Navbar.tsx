@@ -27,7 +27,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="group flex items-center gap-3">
               <img
-                src="/images/logo.png"
+                src="/images/logo.webp"
                 alt="Tri Build Projects Logo"
                 className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />

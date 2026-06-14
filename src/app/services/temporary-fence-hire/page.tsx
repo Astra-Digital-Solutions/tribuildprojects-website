@@ -91,7 +91,7 @@ export default function TemporaryFenceHirePage() {
               <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-2 shadow-xl">
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-900">
                   <img
-                    src="/images/temporary_fence.png"
+                    src="/images/temporary_fence.webp"
                     alt="Durable temporary chain link construction boundary fencing"
                     className="h-full w-full object-cover object-center"
                     loading="lazy"

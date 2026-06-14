@@ -14,15 +14,52 @@ export default function ContactPage() {
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    // Simulate API call
-    setTimeout(() => {
+    setError(null);
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "1aff6941-b271-47c7-ba04-0dc5eeb335f1",
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          suburb: formData.suburb,
+          service: formData.service,
+          message: formData.message,
+          from_name: "Tri Build Projects Quote Form",
+          subject: `New Quote Request from ${formData.name} (${formData.suburb})`,
+        }),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        setIsSubmitted(true);
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          suburb: "",
+          service: "Residential Scaffolding",
+          message: "",
+        });
+      } else {
+        setError(result.message || "Failed to submit. Please check your credentials.");
+      }
+    } catch (err) {
+      setError("A network error occurred. Please try again.");
+    } finally {
       setLoading(false);
-      setIsSubmitted(true);
-    }, 1200);
+    }
   };
 
   return (
@@ -224,6 +261,12 @@ export default function ContactPage() {
                       className="w-full rounded-xl border border-slate-900 bg-slate-900/50 px-4 py-3 text-sm text-white focus:border-accent-amber/50 focus:outline-none transition-colors resize-none"
                     ></textarea>
                   </div>
+
+                  {error && (
+                    <div className="rounded-xl border border-red-950 bg-red-950/20 p-4 text-sm text-red-400 text-center">
+                      {error}
+                    </div>
+                  )}
 
                   <button
                     type="submit"

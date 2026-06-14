@@ -91,7 +91,7 @@ export default function BuilderRooferAccessPage() {
               <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-2 shadow-xl">
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-900">
                   <img
-                    src="/images/builder_access.png"
+                    src="/images/builder_access.webp"
                     alt="Custom scaffolding solutions for builder and roofer height access"
                     className="h-full w-full object-cover object-center"
                     loading="lazy"

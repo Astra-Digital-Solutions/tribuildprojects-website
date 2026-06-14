@@ -102,7 +102,7 @@ export default function ErectDismantlePage() {
               <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-2 shadow-xl">
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-900">
                   <img
-                    src="/images/residential_scaffolding.png"
+                    src="/images/residential_scaffolding.webp"
                     alt="Licensed scaffold crew erecting residential scaffolding safely"
                     className="h-full w-full object-cover object-center"
                     loading="lazy"
