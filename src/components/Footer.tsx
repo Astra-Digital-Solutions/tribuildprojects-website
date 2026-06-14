@@ -156,7 +156,7 @@ export default function Footer() {
           <p className="text-xs text-slate-500 text-center md:text-right">
             Website designed and developed by{" "}
             <a
-              href="https://astradigitalsolutions.com.au"
+              href="https://astrads.com.au"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-accent-amber transition-colors font-medium"
