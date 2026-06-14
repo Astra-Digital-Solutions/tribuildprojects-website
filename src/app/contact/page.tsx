@@ -76,7 +76,7 @@ export default function ContactPage() {
             Contact Us & Request a Quote
           </h1>
           <p className="text-slate-400 text-base leading-relaxed">
-            Need residential scaffolding or site hoarding in Sydney? Provide your project details below, or call us directly. We respond to all quotes in less than 24 hours.
+            Need residential scaffolding or temporary fencing in Sydney? Provide your project details below, or call us directly. We respond to all quotes in less than 24 hours.
           </p>
         </div>
 
@@ -241,9 +241,8 @@ export default function ContactPage() {
                       <option value="Scaffold Erect & Dismantle">Scaffold Erect & Dismantle</option>
                       <option value="Mobile Scaffold Hire">Mobile Scaffold Hire</option>
                       <option value="Builder & Roofer Access Solutions">Builder & Roofer Access Solutions</option>
-                      <option value="Temporary Site Hoarding">Temporary Site Hoarding</option>
                       <option value="Temporary Fence Hire">Temporary Fence Hire</option>
-                      <option value="Combined Package">Combined Scaffold & Hoarding</option>
+                      <option value="Combined Package">Combined Scaffold & Fencing</option>
                     </select>
                   </div>
 

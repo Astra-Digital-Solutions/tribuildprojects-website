@@ -54,12 +54,6 @@ const services = [
     icon: UserCheck,
   },
   {
-    title: "Temporary Site Hoarding",
-    description: "Secure, stable temporary site fencing and hoarding to secure your residential site boundaries and prevent public access.",
-    href: "/services/temporary-hoarding",
-    icon: Fence,
-  },
-  {
     title: "Temporary Fence Hire",
     description: "Galvanized temporary mesh fencing and lockable access gates for residential construction sites. Keep your site secure and compliant.",
     href: "/services/temporary-fence-hire",
@@ -70,15 +64,15 @@ const services = [
 const faqs = [
   {
     question: "Do you service all of Sydney for residential scaffolding and fencing?",
-    answer: "Yes, Tri Build Projects operates Sydney-wide. We service all metropolitan areas, providing scaffolding and temporary site hoarding for owner-builders, residential developers, roofers, and paint contractors.",
+    answer: "Yes, Tri Build Projects operates Sydney-wide. We service all metropolitan areas, providing scaffolding and temporary fencing for owner-builders, residential developers, roofers, and paint contractors.",
   },
   {
     question: "Are you licensed and insured with SafeWork NSW?",
     answer: "Absolutely. We are fully insured, and our scaffold erectors hold high-risk work licenses certified by SafeWork NSW. We issue official handover certificates upon completing any scaffold installation.",
   },
   {
-    question: "Do you offer combined packages for scaffolding and site hoarding (fencing)?",
-    answer: "Yes. Since we specialize in both residential scaffolding and temporary site hoarding, we offer bundled packages. This helps simplify site management and saves residential builders on delivery and setup costs.",
+    question: "Do you offer combined packages for scaffolding and temporary fencing?",
+    answer: "Yes. Since we specialize in both residential scaffolding and temporary fencing, we offer bundled packages. This helps simplify site management and saves residential builders on delivery and setup costs.",
   },
   {
     question: "How long can we hire the scaffolding or fencing for?",
@@ -97,7 +91,7 @@ export default function HomePage() {
     "@type": "HomeAndConstructionBusiness",
     "name": "Tri Build Projects",
     "legalName": "TRI BUILD PROJECTS PTY LTD",
-    "description": "Sydney's specialist in residential scaffolding, edge protection, roof access, and temporary site hoarding. Serving Sydney wide.",
+    "description": "Sydney's specialist in residential scaffolding, edge protection, roof access, and temporary fencing. Serving Sydney wide.",
     "telephone": "0406880403",
     "email": "info@tribuildprojects.com.au",
     "priceRange": "$$",
@@ -158,14 +152,14 @@ export default function HomePage() {
             <div className="lg:col-span-6 space-y-6">
               <div className="inline-flex items-center gap-2 rounded-full border border-accent-amber/30 bg-accent-amber/10 px-4 py-1.5 text-sm font-semibold text-accent-amber animate-pulse">
                 <Shield className="h-4 w-4" />
-                <span>Sydney Wide | Residential Scaffolding & Hoarding</span>
+                <span>Sydney Wide | Residential Scaffolding & Fencing</span>
               </div>
               <h1 className="text-4xl font-black tracking-tight text-white sm:text-6xl">
                 Safe, Compliant <br />
                 <span className="text-gradient-gold">Residential Scaffold & Fencing</span>
               </h1>
               <p className="text-lg text-slate-300 max-w-xl leading-relaxed">
-                Tri Build Projects Pty Ltd delivers top-tier residential scaffolding, roof access solutions, and temporary site hoarding. We specialize exclusively in residential builds, framing, and roofing across Sydney.
+                Tri Build Projects Pty Ltd delivers top-tier residential scaffolding, roof access solutions, and temporary fencing. We specialize exclusively in residential builds, framing, and roofing across Sydney.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -208,7 +202,7 @@ export default function HomePage() {
                 {/* Visual frame decorative bg */}
                 <div className="absolute -inset-4 rounded-3xl border border-accent-amber/20 bg-slate-900/40 blur-sm"></div>
                 <div className="relative flex-grow overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-3 shadow-2xl flex flex-col">
-                  {/* Hero Image: Residential Scaffolding and Hoarding */}
+                  {/* Hero Image: Residential Scaffolding and Fencing */}
                   <div className="relative w-full h-full min-h-[350px] lg:min-h-0 flex-grow overflow-hidden rounded-xl bg-slate-900">
                     <Image
                       src="/images/residential_scaffolding.webp"
@@ -332,8 +326,8 @@ export default function HomePage() {
                     <CheckCircle2 className="h-4 w-4" />
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-white">Heavy-Duty Site Hoarding</h4>
-                    <p className="text-xs text-slate-400">Secure perimeter panels installed dynamically alongside scaffolding to prevent unauthorized entry.</p>
+                    <h4 className="text-sm font-bold text-white">Durable Temporary Fencing</h4>
+                    <p className="text-xs text-slate-400">Durable galvanized fence panels installed dynamically to protect your site perimeter and prevent unauthorized entry.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -359,10 +353,10 @@ export default function HomePage() {
               Service Configurations
             </span>
             <h2 className="text-3xl font-black text-white sm:text-4xl">
-              Typical Scaffolding & Hoarding Setups
+              Typical Scaffolding & Fencing Setups
             </h2>
             <p className="text-slate-400 text-base leading-relaxed">
-              Reference guide of typical steel scaffolds, roof safety rail systems, and temporary hoarding layouts.
+              Reference guide of typical steel scaffolds, roof safety rail systems, and temporary fencing layouts.
             </p>
           </div>
 
@@ -377,11 +371,6 @@ export default function HomePage() {
                 src: "/images/working_platforms.webp",
                 title: "Safe Working Platforms",
                 desc: "Wide platform configuration for masonry and framing access.",
-              },
-              {
-                src: "/images/site_hoarding.webp",
-                title: "Temporary Site Hoarding",
-                desc: "Solid boundary panels and safety hoarding for site containment.",
               },
               {
                 src: "/images/temporary_fence.webp",
@@ -458,7 +447,7 @@ export default function HomePage() {
               Ready to Secure Your Worksite?
             </h2>
             <p className="text-slate-300 max-w-xl mx-auto text-sm sm:text-base">
-              Get an obligation-free quote on residential scaffolding and site hoarding. Reach out directly via phone or email, and our team will get back to you shortly.
+              Get an obligation-free quote on residential scaffolding and temporary fencing. Reach out directly via phone or email, and our team will get back to you shortly.
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">

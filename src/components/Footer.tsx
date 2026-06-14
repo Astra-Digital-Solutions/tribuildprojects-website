@@ -10,7 +10,6 @@ const services = [
   { name: "Scaffold Erect & Dismantle", href: "/services/erect-dismantle" },
   { name: "Mobile Scaffold Hire", href: "/services/mobile-scaffold-hire" },
   { name: "Builder & Roofer Access Solutions", href: "/services/builder-roofer-access" },
-  { name: "Temporary Site Hoarding", href: "/services/temporary-hoarding" },
   { name: "Temporary Fence Hire", href: "/services/temporary-fence-hire" },
 ];
 
@@ -41,7 +40,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="max-w-md text-sm text-slate-400 mt-4 leading-relaxed">
-              Sydney’s premier residential scaffolding and site hoarding specialists. Fully licensed and insured solutions engineered for safety, compliance, and efficiency.
+              Sydney’s premier residential scaffolding and temporary fencing specialists. Fully licensed and insured solutions engineered for safety, compliance, and efficiency.
             </p>
             <div className="space-y-1.5 text-xs text-slate-500 pt-2">
               <p className="font-semibold text-slate-300">TRI BUILD PROJECTS PTY LTD</p>

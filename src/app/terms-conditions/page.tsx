@@ -63,15 +63,15 @@ export default function TermsConditionsPage() {
           {/* Content */}
           <div className="prose prose-invert max-w-none text-slate-300 space-y-8 text-sm sm:text-base leading-relaxed">
             <p>
-              Welcome to <strong>Tri Build Projects Pty Ltd</strong> (ABN 15 697 975 732). These Terms & Conditions govern the hiring of scaffolding, temporary site hoarding, edge protection, and related installation services from us. By accepting our quote or booking our services, you agree to comply with and be bound by these terms.
+              Welcome to <strong>Tri Build Projects Pty Ltd</strong> (ABN 15 697 975 732). These Terms & Conditions govern the hiring of scaffolding, temporary fencing, edge protection, and related installation services from us. By accepting our quote or booking our services, you agree to comply with and be bound by these terms.
             </p>
 
             <div className="space-y-4">
               <h2 className="text-xl font-bold text-white border-b border-slate-900 pb-2">1. Scaffolding & Fencing Hire Terms</h2>
               <ul className="list-disc pl-5 space-y-2">
-                <li><strong>Hire Period:</strong> The hire period begins on the day the scaffolding or site hoarding is installed and signed off with a handover certificate. Standard hire durations are specified in your quote (typically 4, 8, or 12 weeks).</li>
+                <li><strong>Hire Period:</strong> The hire period begins on the day the scaffolding or temporary fencing is installed and signed off with a handover certificate. Standard hire durations are specified in your quote (typically 4, 8, or 12 weeks).</li>
                 <li><strong>Extensions:</strong> Hire extensions will automatically be charged on a weekly pro-rata basis if the equipment is required on-site past the standard agreed hire period. Please notify us at least 7 days prior to your hire end date.</li>
-                <li><strong>Equipment Ownership:</strong> All scaffolding tubes, couplers, boards, stairs, hoarding panels, and mesh fencing remain the absolute property of Tri Build Projects Pty Ltd.</li>
+                <li><strong>Equipment Ownership:</strong> All scaffolding tubes, couplers, boards, stairs, and mesh fencing remain the absolute property of Tri Build Projects Pty Ltd.</li>
               </ul>
             </div>
 

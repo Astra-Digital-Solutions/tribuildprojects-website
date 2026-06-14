@@ -87,7 +87,7 @@ export default function PrivacyPolicyPage() {
               <ul className="list-disc pl-5 space-y-2">
                 <li>Submit a request on our website quote form.</li>
                 <li>Contact us via telephone, email, or social media to discuss scaffolding and fencing hire.</li>
-                <li>Engage us to provide scaffolding or site hoarding setup.</li>
+                <li>Engage us to provide scaffolding or temporary fencing setup.</li>
                 <li>Provide feedback or make inquiries about our services.</li>
               </ul>
             </div>

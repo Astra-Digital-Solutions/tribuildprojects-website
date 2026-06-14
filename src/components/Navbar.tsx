@@ -12,7 +12,6 @@ const services = [
   { name: "Scaffold Erect & Dismantle", href: "/services/erect-dismantle" },
   { name: "Mobile Scaffold Hire", href: "/services/mobile-scaffold-hire" },
   { name: "Builder & Roofer Access Solutions", href: "/services/builder-roofer-access" },
-  { name: "Temporary Site Hoarding", href: "/services/temporary-hoarding" },
   { name: "Temporary Fence Hire", href: "/services/temporary-fence-hire" },
 ];
 

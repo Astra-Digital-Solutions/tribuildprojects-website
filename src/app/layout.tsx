@@ -5,14 +5,14 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Tri Build Projects | Residential Scaffolding & Hoarding Sydney",
+    default: "Tri Build Projects | Residential Scaffolding & Temporary Fencing Sydney",
     template: "%s | Tri Build Projects",
   },
   description:
-    "Tri Build Projects Pty Ltd is Sydney's specialist in residential scaffolding, edge protection, roof access, and temporary site hoarding. Serving Sydney-wide. Call 0406 880 403.",
+    "Tri Build Projects Pty Ltd is Sydney's specialist in residential scaffolding, edge protection, roof access, and temporary fencing. Serving Sydney-wide. Call 0406 880 403.",
   keywords: [
     "residential scaffolding sydney",
-    "temporary fencing hoarding",
+    "temporary fencing hire",
     "edge protection sydney",
     "roof access scaffolding",
     "mobile scaffold hire",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Tri Build Projects | Residential Scaffolding & Hoarding Sydney",
+    title: "Tri Build Projects | Residential Scaffolding & Temporary Fencing Sydney",
     description:
-      "Expert residential scaffolding, edge protection, roof access, and site hoarding serving Sydney wide. Safe, compliant, and cost-effective scaffolding solutions.",
+      "Expert residential scaffolding, edge protection, roof access, and temporary fencing serving Sydney wide. Safe, compliant, and cost-effective scaffolding solutions.",
     url: "https://tribuildprojects.com.au",
     siteName: "Tri Build Projects",
     locale: "en_AU",
