@@ -368,7 +368,7 @@ export default function HomePage() {
                 desc: "Edge protection & multi-tier access scaffold configuration.",
               },
               {
-                src: "/images/working_platforms.webp",
+                src: "/images/steel_scaffold_platform.webp",
                 title: "Safe Working Platforms",
                 desc: "Wide platform configuration for masonry and framing access.",
               },
