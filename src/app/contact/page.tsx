@@ -101,6 +101,32 @@ export default function ContactPage() {
                 </a>
 
                 <a
+                  href="tel:0405865566"
+                  className="flex items-center gap-4 group rounded-xl border border-slate-900 bg-slate-900/40 p-4 hover:border-accent-amber/30 transition-all"
+                >
+                  <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-accent-amber/10 text-accent-amber group-hover:bg-accent-amber group-hover:text-slate-950 transition-all">
+                    <Phone className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-slate-500 font-semibold uppercase">Call Us Directly</p>
+                    <p className="text-sm font-bold text-white mt-0.5">0405 865 566</p>
+                  </div>
+                </a>
+
+                <a
+                  href="tel:0466446332"
+                  className="flex items-center gap-4 group rounded-xl border border-slate-900 bg-slate-900/40 p-4 hover:border-accent-amber/30 transition-all"
+                >
+                  <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-accent-amber/10 text-accent-amber group-hover:bg-accent-amber group-hover:text-slate-950 transition-all">
+                    <Phone className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-slate-500 font-semibold uppercase">Call Us Directly</p>
+                    <p className="text-sm font-bold text-white mt-0.5">0466 446 332</p>
+                  </div>
+                </a>
+
+                <a
                   href="mailto:info@tribuildprojects.com.au"
                   className="flex items-center gap-4 group rounded-xl border border-slate-900 bg-slate-900/40 p-4 hover:border-accent-amber/30 transition-all break-all"
                 >
