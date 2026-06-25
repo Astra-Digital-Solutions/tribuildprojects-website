@@ -20,7 +20,7 @@ export default function RoofAccessPage() {
     "provider": {
       "@type": "HomeAndConstructionBusiness",
       "name": "Tri Build Projects",
-      "telephone": "0406880403"
+      "telephone": "0489150675"
     },
     "areaServed": "Sydney, NSW, Australia"
   };
@@ -116,11 +116,11 @@ export default function RoofAccessPage() {
 
                 <div className="space-y-3">
                   <a
-                    href="tel:0406880403"
+                    href="tel:0489150675"
                     className="flex items-center justify-center gap-2 rounded-xl bg-accent-amber py-3 text-sm font-bold text-slate-950 hover:bg-accent-amber-hover transition-colors"
                   >
                     <Phone className="h-4 w-4" />
-                    <span>Call 0406 880 403</span>
+                    <span>Call 0489 150 675</span>
                   </a>
                   <Link
                     href="/contact"

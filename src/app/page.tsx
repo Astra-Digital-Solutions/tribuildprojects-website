@@ -92,7 +92,7 @@ export default function HomePage() {
     "name": "Tri Build Projects",
     "legalName": "TRI BUILD PROJECTS PTY LTD",
     "description": "Sydney's specialist in residential scaffolding, edge protection, roof access, and temporary fencing. Serving Sydney wide.",
-    "telephone": "0406880403",
+    "telephone": "0489150675",
     "email": "info@tribuildprojects.com.au",
     "priceRange": "$$",
     "areaServed": {
@@ -164,11 +164,11 @@ export default function HomePage() {
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <a
-                  href="tel:0406880403"
+                  href="tel:0489150675"
                   className="flex items-center justify-center gap-3 rounded-2xl bg-accent-amber px-8 py-5 text-lg sm:text-xl font-extrabold text-slate-950 shadow-xl shadow-accent-amber/20 hover:bg-accent-amber-hover hover:scale-[1.02] transition-all w-full sm:w-auto text-center"
                 >
                   <Phone className="h-6 w-6 shrink-0 fill-current" />
-                  <span>Call 0406 880 403</span>
+                  <span>Call 0489 150 675</span>
                 </a>
                 <Link
                   href="/contact"
@@ -452,11 +452,11 @@ export default function HomePage() {
 
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
               <a
-                href="tel:0406880403"
+                href="tel:0489150675"
                 className="w-full sm:w-auto flex items-center justify-center gap-3 rounded-2xl bg-accent-amber px-8 py-5 text-base sm:text-lg font-extrabold text-slate-950 shadow-xl shadow-accent-amber/20 hover:bg-accent-amber-hover hover:scale-[1.02] transition-all"
               >
                 <Phone className="h-5 w-5 shrink-0 fill-current" />
-                <span>Call 0406 880 403</span>
+                <span>Call 0489 150 675</span>
               </a>
               <a
                 href="mailto:info@tribuildprojects.com.au"

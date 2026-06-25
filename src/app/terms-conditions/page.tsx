@@ -18,7 +18,7 @@ export default function TermsConditionsPage() {
     "publisher": {
       "@type": "HomeAndConstructionBusiness",
       "name": "Tri Build Projects",
-      "telephone": "0406880403"
+      "telephone": "0489150675"
     }
   };
 
@@ -126,7 +126,7 @@ export default function TermsConditionsPage() {
               </p>
               <div className="rounded-xl border border-slate-900 bg-slate-950/40 p-5 space-y-1.5 text-sm">
                 <p className="font-bold text-white">Tri Build Projects Pty Ltd</p>
-                <p><strong>Phone:</strong> 0406 880 403</p>
+                <p><strong>Phone:</strong> 0489 150 675</p>
                 <p><strong>Email:</strong> info@tribuildprojects.com.au</p>
                 <p><strong>Address:</strong> Sydney, New South Wales, Australia</p>
               </div>

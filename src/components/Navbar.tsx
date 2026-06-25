@@ -130,18 +130,18 @@ export default function Navbar() {
               </svg>
             </a>
             <a
-              href="tel:0406880403"
+              href="tel:0489150675"
               className="group flex items-center gap-2 rounded-xl bg-accent-amber px-5 py-2.5 text-sm font-bold text-slate-950 transition-all hover:bg-accent-amber-hover hover:scale-[1.02] shadow-lg shadow-accent-amber/15"
             >
               <Phone className="h-4 w-4 shrink-0 fill-current animate-pulse" />
-              <span>0406 880 403</span>
+              <span>0489 150 675</span>
             </a>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center gap-3">
             <a
-              href="tel:0406880403"
+              href="tel:0489150675"
               className="flex items-center justify-center rounded-xl bg-accent-amber p-2.5 text-slate-950 sm:hidden shadow-md shadow-accent-amber/20"
               aria-label="Call Tri Build Projects"
             >
@@ -199,11 +199,11 @@ export default function Navbar() {
 
             <div className="pt-4 border-t border-slate-900 px-4 space-y-4">
               <a
-                href="tel:0406880403"
+                href="tel:0489150675"
                 className="flex items-center justify-center gap-3 rounded-xl bg-accent-amber py-3 text-center text-base font-bold text-slate-950 shadow-lg shadow-accent-amber/10 hover:bg-accent-amber-hover"
               >
                 <Phone className="h-5 w-5 shrink-0" />
-                <span>Call 0406 880 403</span>
+                <span>Call 0489 150 675</span>
               </a>
               <div className="flex justify-center gap-6 pt-2">
                 <a

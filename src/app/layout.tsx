@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | Tri Build Projects",
   },
   description:
-    "Tri Build Projects Pty Ltd is Sydney's specialist in residential scaffolding, edge protection, roof access, and temporary fencing. Serving Sydney-wide. Call 0406 880 403.",
+    "Tri Build Projects Pty Ltd is Sydney's specialist in residential scaffolding, edge protection, roof access, and temporary fencing. Serving Sydney-wide. Call 0489 150 675.",
   keywords: [
     "residential scaffolding sydney",
     "temporary fencing hire",
