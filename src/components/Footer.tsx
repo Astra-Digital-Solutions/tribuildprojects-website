@@ -2,16 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Phone, Mail, MapPin, Shield, HelpCircle } from "lucide-react";
-
-const services = [
-  { name: "Residential Scaffolding", href: "/services/residential-scaffolding" },
-  { name: "Edge Protection", href: "/services/edge-protection" },
-  { name: "Roof Access Scaffolding", href: "/services/roof-access" },
-  { name: "Scaffold Erect & Dismantle", href: "/services/erect-dismantle" },
-  { name: "Mobile Scaffold Hire", href: "/services/mobile-scaffold-hire" },
-  { name: "Builder & Roofer Access Solutions", href: "/services/builder-roofer-access" },
-  { name: "Temporary Fence Hire", href: "/services/temporary-fence-hire" },
-];
+import { services } from "@/config/navigation";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
