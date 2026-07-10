@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import fs from "fs";
-import path from "path";
+import existingServices from "@/data/existing-services.json";
 
 interface ServiceLinkProps {
   service: string;
@@ -9,9 +8,7 @@ interface ServiceLinkProps {
 }
 
 export default function ServiceLink({ service, children }: ServiceLinkProps) {
-  // Path to the service page directory
-  const pagePath = path.join(process.cwd(), "src", "app", "services", service, "page.tsx");
-  const exists = fs.existsSync(pagePath);
+  const exists = existingServices.includes(service);
 
   if (exists) {
     return (
