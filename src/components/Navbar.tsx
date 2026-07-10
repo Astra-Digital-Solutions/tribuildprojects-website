@@ -46,34 +46,36 @@ export default function Navbar() {
             </Link>
 
             {/* Services Dropdown */}
-            <div className="relative">
+            <div
+              className="relative py-2"
+              onMouseEnter={() => setIsDropdownOpen(true)}
+              onMouseLeave={() => setIsDropdownOpen(false)}
+            >
               <button
-                onMouseEnter={() => setIsDropdownOpen(true)}
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                 className="flex items-center gap-1 text-lg font-bold text-slate-300 hover:text-white hover:text-accent-amber transition-colors focus:outline-none"
               >
                 Services
-                <ChevronDown className="h-5 w-5 transition-transform duration-200" />
+                <ChevronDown className={`h-5 w-5 transition-transform duration-200 ${isDropdownOpen ? "rotate-180" : ""}`} />
               </button>
 
               {/* Dropdown Menu */}
               {isDropdownOpen && (
-                <div
-                  onMouseLeave={() => setIsDropdownOpen(false)}
-                  className="absolute left-1/2 z-50 mt-2 w-80 -translate-x-1/2 rounded-xl border border-slate-800 bg-slate-950 p-2 shadow-2xl ring-1 ring-black/5"
-                >
-                  <div className="grid gap-1">
-                    {services.map((service) => (
-                      <Link
-                        key={service.name}
-                        href={service.href}
-                        onClick={() => setIsDropdownOpen(false)}
-                        className="flex items-center gap-2 rounded-lg p-2.5 text-sm font-medium text-slate-300 hover:bg-slate-900 hover:text-accent-amber transition-all"
-                      >
-                        <ShieldCheck className="h-4 w-4 text-accent-amber shrink-0" />
-                        <span>{service.name}</span>
-                      </Link>
-                    ))}
+                <div className="absolute left-1/2 z-50 pt-2 w-80 -translate-x-1/2">
+                  <div className="rounded-xl border border-slate-800 bg-slate-950 p-2 shadow-2xl ring-1 ring-black/5">
+                    <div className="grid gap-1">
+                      {services.map((service) => (
+                        <Link
+                          key={service.name}
+                          href={service.href}
+                          onClick={() => setIsDropdownOpen(false)}
+                          className="flex items-center gap-2 rounded-lg p-2.5 text-sm font-medium text-slate-300 hover:bg-slate-900 hover:text-accent-amber transition-all"
+                        >
+                          <ShieldCheck className="h-4 w-4 text-accent-amber shrink-0" />
+                          <span>{service.name}</span>
+                        </Link>
+                      ))}
+                    </div>
                   </div>
                 </div>
               )}
