@@ -1,0 +1,37 @@
+{
+  "residential-scaffolding": {
+    "name": "Residential Scaffolding",
+    "href": "/services/residential-scaffolding",
+    "keywords": ["residential scaffolding", "house scaffolding", "scaffolding for homes"]
+  },
+  "roof-access": {
+    "name": "Roof Access Scaffolding",
+    "href": "/services/roof-access",
+    "keywords": ["roof access scaffolding", "roof access", "roof scaffolding", "gutter access"]
+  },
+  "mobile-scaffold-hire": {
+    "name": "Mobile Scaffold Hire",
+    "href": "/services/mobile-scaffold-hire",
+    "keywords": ["mobile scaffold hire", "mobile scaffold", "rolling scaffold", "aluminium tower"]
+  },
+  "temporary-fence-hire": {
+    "name": "Temporary Fence Hire",
+    "href": "/services/temporary-fence-hire",
+    "keywords": ["temporary fence hire", "temporary fence", "temp fence", "site fencing"]
+  },
+  "edge-protection": {
+    "name": "Edge Protection",
+    "href": "/services/edge-protection",
+    "keywords": ["edge protection", "roof railing", "fall protection"]
+  },
+  "builder-roofer-access": {
+    "name": "Builder & Roofer Access Solutions",
+    "href": "/services/builder-roofer-access",
+    "keywords": ["builder & roofer access", "builder access solutions", "roofer access", "trades access", "scaffold platforms"]
+  },
+  "portable-toilet-hire": {
+    "name": "Portable Toilet Hire",
+    "href": "/services/portable-toilet-hire",
+    "keywords": ["portable toilet hire", "portable toilet", "site toilet", "portaloo", "port-a-loo"]
+  }
+}

@@ -14,6 +14,7 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     "scratch/**",
     "convert_images.js",
+    "scripts/**",
   ]),
 ]);
 
