@@ -200,6 +200,7 @@ async function main() {
     if (isQuestion) {
       if (currentFaq) faqs.push(currentFaq);
       const cleanQuestion = trimmed
+        .replace(/^[#\s]+/g, '')
         .replace(/^(?:\*\*|)?(?:Question|Q|[0-9]+)[:.]?\s*/i, '')
         .replace(/\*\*+$/, '')
         .trim();
