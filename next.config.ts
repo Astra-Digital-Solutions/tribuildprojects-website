@@ -21,6 +21,9 @@ if (fs.existsSync(servicesDir)) {
 
 const nextConfig: NextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
+  images: {
+    unoptimized: true,
+  },
   async redirects() {
     try {
       const filePath = path.join(process.cwd(), "src", "data", "redirects.json");

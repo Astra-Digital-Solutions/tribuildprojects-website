@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: {
@@ -74,7 +74,18 @@ export default function RootLayout({
         <main className="flex-grow">{children}</main>
         <Footer />
       </body>
-      <GoogleAnalytics gaId="G-JHSP5E7J7M" />
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-JHSP5E7J7M"
+        strategy="lazyOnload"
+      />
+      <Script id="google-analytics" strategy="lazyOnload">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-JHSP5E7J7M');
+        `}
+      </Script>
     </html>
   );
 }
