@@ -333,6 +333,15 @@ export default function HomePage() {
                     <CheckCircle2 className="h-4 w-4" />
                   </div>
                   <div>
+                    <h4 className="text-sm font-bold text-white">Public Liability Insurance</h4>
+                    <p className="text-xs text-slate-400">Complete $20M Public Liability cover protecting builders, trades, and homeowners on every worksite.</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded bg-accent-amber/10 text-accent-amber">
+                    <CheckCircle2 className="h-4 w-4" />
+                  </div>
+                  <div>
                     <h4 className="text-sm font-bold text-white">Durable Temporary Fencing</h4>
                     <p className="text-xs text-slate-400">Durable galvanized fence panels installed dynamically to protect your site perimeter and prevent unauthorized entry.</p>
                   </div>

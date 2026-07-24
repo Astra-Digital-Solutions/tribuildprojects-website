@@ -133,7 +133,7 @@ export default function Footer() {
             <div className="mt-6 flex gap-3">
               <div className="flex items-center gap-1.5 rounded-lg border border-slate-800 bg-slate-900/50 px-2.5 py-1 text-[11px] font-semibold text-slate-400">
                 <Shield className="h-3.5 w-3.5 text-accent-amber" />
-                <span>100% Insured</span>
+                <span>Public Liability Insured</span>
               </div>
               <div className="flex items-center gap-1.5 rounded-lg border border-slate-800 bg-slate-900/50 px-2.5 py-1 text-[11px] font-semibold text-slate-400">
                 <HelpCircle className="h-3.5 w-3.5 text-accent-amber" />
