@@ -37,6 +37,7 @@ export default function Footer() {
               <p className="font-semibold text-slate-300">TRI BUILD PROJECTS PTY LTD</p>
               <p>ABN: 15 697 975 732</p>
               <p>ACN: 697 975 732</p>
+              <p>Licence No: HRW1131382</p>
             </div>
           </div>
 
