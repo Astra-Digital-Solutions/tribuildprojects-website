@@ -13,6 +13,7 @@ import {
   Compass,
   UserCheck,
   Fence,
+  Sparkles,
 } from "lucide-react";
 import JsonLd from "@/components/JsonLd";
 
@@ -58,6 +59,12 @@ const services = [
     description: "Galvanized temporary mesh fencing and lockable access gates for residential construction sites. Keep your site secure and compliant.",
     href: "/services/temporary-fence-hire",
     icon: Fence,
+  },
+  {
+    title: "Portable Toilet Hire",
+    description: "Clean, hygienic, and fully compliant portaloo hire. Essential sanitation facilities delivered and setup on your residential site.",
+    href: "/services/portable-toilet-hire",
+    icon: Sparkles,
   },
 ];
 

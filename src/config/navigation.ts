@@ -13,6 +13,7 @@ export const services: RouteConfig[] = [
   { name: "Mobile Scaffold Hire", href: "/services/mobile-scaffold-hire", changeFrequency: "monthly", priority: 0.8 },
   { name: "Builder & Roofer Access Solutions", href: "/services/builder-roofer-access", changeFrequency: "monthly", priority: 0.8 },
   { name: "Temporary Fence Hire", href: "/services/temporary-fence-hire", changeFrequency: "monthly", priority: 0.8 },
+  { name: "Portable Toilet Hire", href: "/services/portable-toilet-hire", changeFrequency: "monthly", priority: 0.8 },
 ];
 
 export const mainPages: RouteConfig[] = [
