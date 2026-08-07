@@ -268,6 +268,7 @@ export default function ContactPage() {
                       <option value="Mobile Scaffold Hire">Mobile Scaffold Hire</option>
                       <option value="Builder & Roofer Access Solutions">Builder & Roofer Access Solutions</option>
                       <option value="Temporary Fence Hire">Temporary Fence Hire</option>
+                      <option value="Portable Toilet Hire">Portable Toilet Hire</option>
                       <option value="Combined Package">Combined Scaffold & Fencing</option>
                     </select>
                   </div>
