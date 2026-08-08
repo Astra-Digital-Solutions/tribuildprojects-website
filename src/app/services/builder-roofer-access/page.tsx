@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Builder & Roofer Access Solutions Sydney | Scaffold Platforms",
   description:
     "Tailored height access scaffolding for Sydney residential builders and roofers. Platform bays, material chutes, and stair access. Call 0489 150 675.",
+  alternates: {
+    canonical: "/services/builder-roofer-access",
+  },
 };
 
 export default function BuilderRooferAccessPage() {

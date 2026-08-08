@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Scaffold Erect & Dismantle Sydney | Professional Scaffolding Crew",
   description:
     "Professional scaffold erect and dismantle services in Sydney. Fully licensed riggers and scaffolders. Secure, compliant site deliveries. Call 0489 150 675.",
+  alternates: {
+    canonical: "/services/erect-dismantle",
+  },
 };
 
 export default function ErectDismantlePage() {

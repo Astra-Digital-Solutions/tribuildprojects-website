@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Residential Scaffolding Sydney | House & Renovation Access",
   description:
     "Expert residential scaffolding services in Sydney. Specializing in safe access solutions for houses, townhouses, and renovations. Get a free quote today.",
+  alternates: {
+    canonical: "/services/residential-scaffolding",
+  },
 };
 
 export default function ResidentialScaffoldingPage() {

@@ -21,9 +21,6 @@ export const metadata: Metadata = {
     "tri build projects",
   ],
   metadataBase: new URL("https://tribuildprojects.com.au"),
-  alternates: {
-    canonical: "/",
-  },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },

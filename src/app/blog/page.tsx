@@ -4,9 +4,14 @@ import fs from "fs";
 import path from "path";
 import { ArrowRight, Calendar, Clock } from "lucide-react";
 
-export const metadata = {
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
   title: "Height Access Scaffolding & Site Services Blog | Tri Build Projects",
   description: "Industry insights, safety guides, and updates on residential scaffolding, edge protection, and temporary fencing in Sydney.",
+  alternates: {
+    canonical: "/blog",
+  },
   robots: {
     index: true,
     follow: true,

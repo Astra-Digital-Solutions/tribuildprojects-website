@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Roof Access Scaffolding Sydney | Safe Stair & Platform Access",
   description:
     "Safe roof access scaffolding for residential projects in Sydney. Stair access towers and custom ladder access platforms. Call Tri Build Projects today.",
+  alternates: {
+    canonical: "/services/roof-access",
+  },
 };
 
 export default function RoofAccessPage() {

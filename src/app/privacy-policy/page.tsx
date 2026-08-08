@@ -7,6 +7,9 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Privacy Policy | Tri Build Projects",
   description: "Read the Privacy Policy of Tri Build Projects Pty Ltd. Learn how we collect, use, and protect your personal information in compliance with Australian Privacy Principles.",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {

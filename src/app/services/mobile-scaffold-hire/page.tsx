@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Mobile Scaffold Hire Sydney | Aluminium Scaffold Towers",
   description:
     "Premium aluminium mobile scaffold hire in Sydney. Lightweight, easy to move, lockable wheels. Perfect for painters and renderers. Get a quote today.",
+  alternates: {
+    canonical: "/services/mobile-scaffold-hire",
+  },
 };
 
 export default function MobileScaffoldPage() {

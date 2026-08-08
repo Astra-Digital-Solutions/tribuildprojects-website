@@ -7,6 +7,9 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Terms & Conditions | Tri Build Projects",
   description: "Read the Terms & Conditions of Tri Build Projects Pty Ltd. Learn about our scaffolding hire terms, equipment safety, liability, and payment conditions under Australian standards.",
+  alternates: {
+    canonical: "/terms-conditions",
+  },
 };
 
 export default function TermsConditionsPage() {

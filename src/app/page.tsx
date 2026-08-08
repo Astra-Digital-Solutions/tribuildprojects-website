@@ -15,7 +15,14 @@ import {
   Fence,
   Sparkles,
 } from "lucide-react";
+import type { Metadata } from "next";
 import JsonLd from "@/components/JsonLd";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 const services = [
   {

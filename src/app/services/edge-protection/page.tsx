@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Edge Protection Sydney | Roof Guardrail & Fall Prevention",
   description:
     "Compliant roof edge protection and guardrail systems in Sydney. Protect your crew on residential roofs. Contact Tri Build Projects on 0489 150 675.",
+  alternates: {
+    canonical: "/services/edge-protection",
+  },
 };
 
 export default function EdgeProtectionPage() {

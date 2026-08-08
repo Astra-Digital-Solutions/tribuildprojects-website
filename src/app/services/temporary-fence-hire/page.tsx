@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Temporary Fence Hire Sydney | Construction Fencing & Gates",
   description:
     "Secure temporary fence hire in Sydney for residential building sites. Durable mesh panels, concrete feet, and gates. Request a quote from Tri Build Projects today.",
+  alternates: {
+    canonical: "/services/temporary-fence-hire",
+  },
 };
 
 export default function TemporaryFenceHirePage() {

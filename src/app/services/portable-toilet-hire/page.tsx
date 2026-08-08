@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Portable Toilet Hire Sydney | Construction Portaloo Hire",
   description:
     "Clean, hygienic, and fully compliant portable toilet hire in Sydney. Perfect for residential building sites and renovations. Request a quote from Tri Build Projects today.",
+  alternates: {
+    canonical: "/services/portable-toilet-hire",
+  },
 };
 
 export default function PortableToiletHirePage() {
