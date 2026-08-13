@@ -224,7 +224,7 @@ async function main() {
   }
 
   // 7. Write the MDX file with Frontmatter
-  const publishedDate = new Date().toISOString().split('T')[0];
+  const publishedDate = new Date().toLocaleDateString('en-CA', { timeZone: 'Australia/Sydney' });
   const frontmatter = [
     '---',
     `title: "${sections['SEO TITLE'].replace(/"/g, '\\"')}"`,
