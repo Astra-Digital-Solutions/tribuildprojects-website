@@ -98,6 +98,22 @@ export default function MobileScaffoldPage() {
                   </li>
                 </ul>
               </div>
+
+              {/* Helpful Guides / Related Articles */}
+              <div className="space-y-4 pt-6 border-t border-slate-800/60 mt-6">
+                <h3 className="text-lg font-bold text-white">Helpful Scaffold Hire Guides</h3>
+                <div className="grid grid-cols-1 gap-3">
+                  <Link
+                    href="/blog/mobile-scaffold-hire-vs-fixed-scaffolding-sydney"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Mobile Scaffold Hire vs Fixed Scaffolding: Which Is Right for Your Project?
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Compare mobile aluminium towers and fixed scaffolding to determine the best access system.</span>
+                  </Link>
+                </div>
+              </div>
             </div>
 
             {/* Right Sidebar column */}

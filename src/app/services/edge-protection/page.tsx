@@ -87,6 +87,22 @@ export default function EdgeProtectionPage() {
                   According to SafeWork NSW guidelines, edge protection or fallback prevention systems are required on all construction projects where there is a risk of falling from heights (typically exceeding 2.0 meters). This is highly critical for builders, carpenters, painters, and roof tilers.
                 </p>
               </div>
+
+              {/* Helpful Guides / Related Articles */}
+              <div className="space-y-4 pt-6 border-t border-slate-800/60 mt-6">
+                <h3 className="text-lg font-bold text-white">Helpful Edge Protection Guides</h3>
+                <div className="grid grid-cols-1 gap-3">
+                  <Link
+                    href="/blog/edge-protection-requirements-nsw"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Edge Protection Requirements in NSW Explained (2026 Guide)
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Understand the height safety codes and when edge protection is required for roofs.</span>
+                  </Link>
+                </div>
+              </div>
             </div>
 
             {/* Right Sidebar column */}

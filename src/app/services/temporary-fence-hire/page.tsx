@@ -87,6 +87,22 @@ export default function TemporaryFenceHirePage() {
                   Avoid paying separate delivery and setup fees. By hiring both your residential scaffolding and temporary site fencing from Tri Build Projects, we deliver and erect all perimeter assets in a single run. This keeps coordination easy and saves freight costs.
                 </p>
               </div>
+
+              {/* Helpful Guides / Related Articles */}
+              <div className="space-y-4 pt-6 border-t border-slate-800/60 mt-6">
+                <h3 className="text-lg font-bold text-white">Helpful Fencing Guides</h3>
+                <div className="grid grid-cols-1 gap-3">
+                  <Link
+                    href="/blog/temporary-fence-hire-sydney"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Temporary Fence Hire Sydney: When Do You Need It and Why Is It Important?
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Learn when temporary fences are required in Sydney and boundary security tips.</span>
+                  </Link>
+                </div>
+              </div>
             </div>
 
             {/* Right Sidebar column */}

@@ -87,6 +87,31 @@ export default function BuilderRooferAccessPage() {
                   Scaffolding shouldn&apos;t get in the way. By consulting with you during the layout planning phase, we build scaffolding frames that allow plasterers, carpenters, and roofers to work in tandem. This increases speed on site and guarantees that deadlines are met safely.
                 </p>
               </div>
+
+              {/* Helpful Guides / Related Articles */}
+              <div className="space-y-4 pt-6 border-t border-slate-800/60 mt-6">
+                <h3 className="text-lg font-bold text-white">Helpful Trade Access Guides</h3>
+                <div className="grid grid-cols-1 gap-3">
+                  <Link
+                    href="/blog/do-i-need-scaffolding-for-roof-repairs-in-sydney"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Do I Need Scaffolding for Roof Repairs in Sydney?
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Guideline on height access safety rules for roofing crews and builders.</span>
+                  </Link>
+                  <Link
+                    href="/blog/choosing-the-right-scaffolding-company-western-sydney"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Choosing the Right Scaffolding Company in Western Sydney (2026 Guide)
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Tips on comparing scaffolding suppliers for residential and commercial sites.</span>
+                  </Link>
+                </div>
+              </div>
             </div>
 
             {/* Right Sidebar column */}

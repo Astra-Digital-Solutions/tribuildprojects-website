@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import fs from "fs";
 import path from "path";
 import { notFound } from "next/navigation";
@@ -102,6 +103,25 @@ export default async function BlogPostPage({ params }: PageProps) {
   } catch (e) {
     console.error("Failed to load mdx module for slug:", slug, e);
     notFound();
+  }
+
+  const serviceImageMap: Record<string, string> = {
+    "Residential Scaffolding": "/images/residential_scaffold.webp",
+    "Edge Protection": "/images/edge_protection.webp",
+    "Roof Access Scaffolding": "/images/steel_scaffold_platform.webp",
+    "Mobile Scaffold Hire": "/images/mobile_scaffold.webp",
+    "Temporary Fence Hire": "/images/temporary_fence.webp",
+    "Portable Toilet Hire": "/images/portable_toilet.webp",
+    "Builder & Roofer Access Solutions": "/images/builder_access.webp",
+  };
+
+  let heroImage = frontmatter.ogImage || frontmatter.image;
+  if (!heroImage && frontmatter.services && frontmatter.services.length > 0) {
+    const primaryService = frontmatter.services[0];
+    heroImage = serviceImageMap[primaryService];
+  }
+  if (!heroImage) {
+    heroImage = "/images/residential_scaffold.webp";
   }
 
   // Read raw file content to parse headings (TOC) and FAQs
@@ -308,6 +328,19 @@ export default async function BlogPostPage({ params }: PageProps) {
                   </span>
                 </div>
               </div>
+
+              {heroImage && (
+                <div className="relative w-full aspect-[16/9] overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/40">
+                  <Image
+                    src={heroImage}
+                    alt={frontmatter.title}
+                    fill
+                    sizes="(max-w-3xl) 100vw, 800px"
+                    priority
+                    className="object-cover"
+                  />
+                </div>
+              )}
 
               {/* MDX Post Body Content */}
               <div className="mt-8">

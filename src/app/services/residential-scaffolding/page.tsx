@@ -99,6 +99,40 @@ export default function ResidentialScaffoldingPage() {
                   </li>
                 </ul>
               </div>
+
+              {/* Helpful Guides / Related Articles */}
+              <div className="space-y-4 pt-6 border-t border-slate-800/60 mt-6">
+                <h3 className="text-lg font-bold text-white">Helpful Scaffolding Guides</h3>
+                <div className="grid grid-cols-1 gap-3">
+                  <Link
+                    href="/blog/residential-scaffolding-cost-sydney-2026-pricing-guide"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      How Much Does Residential Scaffolding Cost in Sydney? (2026 Pricing Guide)
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Read our comprehensive cost breakdown and budgeting guide.</span>
+                  </Link>
+                  <Link
+                    href="/blog/residential-scaffolding-sydney-complete-homeowners-guide"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Residential Scaffolding Sydney: The Complete Homeowner&apos;s Guide
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Learn everything about safety, regulations, and process for home scaffolding.</span>
+                  </Link>
+                  <Link
+                    href="/blog/choosing-the-right-scaffolding-company-western-sydney"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Choosing the Right Scaffolding Company in Western Sydney (2026 Guide)
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Tips on finding a reliable and compliant scaffolding provider for your project.</span>
+                  </Link>
+                </div>
+              </div>
             </div>
 
             {/* Right Sidebar column */}

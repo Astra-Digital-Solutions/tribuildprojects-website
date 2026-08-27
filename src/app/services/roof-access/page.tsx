@@ -87,6 +87,31 @@ export default function RoofAccessPage() {
                   We specialize in scaffolding solutions that help trade contractors stay efficient. By replacing risky ladders with structured stair towers, painters, roof restoration teams, and builders can transport materials to roof levels easily and safely.
                 </p>
               </div>
+
+              {/* Helpful Guides / Related Articles */}
+              <div className="space-y-4 pt-6 border-t border-slate-800/60 mt-6">
+                <h3 className="text-lg font-bold text-white">Helpful Roof Access Guides</h3>
+                <div className="grid grid-cols-1 gap-3">
+                  <Link
+                    href="/blog/do-i-need-scaffolding-for-roof-repairs-in-sydney"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Do I Need Scaffolding for Roof Repairs in Sydney?
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Find out when safety regulations and practical needs require scaffold setups for roof work.</span>
+                  </Link>
+                  <Link
+                    href="/blog/edge-protection-requirements-nsw"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Edge Protection Requirements in NSW Explained (2026 Guide)
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Learn NSW safety rules for fall prevention and roof guardrails on construction sites.</span>
+                  </Link>
+                </div>
+              </div>
             </div>
 
             {/* Right Sidebar column */}
