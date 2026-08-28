@@ -135,7 +135,11 @@ export default async function BlogPostPage({ params }: PageProps) {
   const toc = headingLines
     .map((line) => {
       const isH3 = line.startsWith("### ");
-      const text = line.replace(/^#{2,3}\s+/, "").trim();
+      const rawText = line.replace(/^#{2,3}\s+/, "").trim();
+      const text = rawText
+        .replace(/<ServiceLink[^>]*>([\s\S]*?)<\/ServiceLink>/gi, "$1")
+        .replace(/<[^>]+>/g, "")
+        .trim();
       const id = text
         .toLowerCase()
         .trim()
