@@ -20,6 +20,8 @@ interface PostMetadata {
   services?: string[];
   keywords?: string[];
   ogImage?: string;
+  image?: string;
+  imageAlt?: string;
 }
 
 // 1. Static route generation
@@ -337,7 +339,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                 <div className="relative w-full aspect-[16/9] overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/40">
                   <Image
                     src={heroImage}
-                    alt={frontmatter.title}
+                    alt={frontmatter.imageAlt || frontmatter.title}
                     fill
                     sizes="(max-w-3xl) 100vw, 800px"
                     priority
