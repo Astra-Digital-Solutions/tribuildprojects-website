@@ -22,6 +22,8 @@ interface PostMetadata {
   ogImage?: string;
   image?: string;
   imageAlt?: string;
+  seoTitle?: string;
+  metaTitle?: string;
 }
 
 // 1. Static route generation
@@ -51,15 +53,16 @@ export async function generateMetadata({ params }: PageProps) {
     const { frontmatter } = await import(`@/content/blog/${slug}.mdx`);
     const ogImage = frontmatter.ogImage || "/images/tribuild-og.jpg";
     const fullUrl = `https://tribuildprojects.com.au/blog/${slug}`;
+    const pageTitle = frontmatter.seoTitle || frontmatter.metaTitle || frontmatter.title;
 
     return {
-      title: frontmatter.title,
+      title: pageTitle,
       description: frontmatter.description,
       alternates: {
         canonical: `/blog/${slug}`,
       },
       openGraph: {
-        title: frontmatter.title,
+        title: pageTitle,
         description: frontmatter.description,
         url: fullUrl,
         type: "article",
@@ -153,7 +156,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   // Parse FAQs for schema injection
   const faqs: { question: string; answer: string }[] = [];
-  const faqSectionMatch = fileContent.match(/## Frequently Asked Questions\s*\n([\s\S]*)/i);
+  const faqSectionMatch = fileContent.match(/## Frequently Asked Questions\s*\n([\s\S]*?)(?=\n##\s+[^\n]+|$)/i);
   if (faqSectionMatch) {
     const faqText = faqSectionMatch[1];
     const faqBlocks = faqText.split(/###\s+/).filter(Boolean);
