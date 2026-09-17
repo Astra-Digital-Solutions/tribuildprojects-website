@@ -82,6 +82,13 @@ export default function Navbar() {
             </div>
 
             <Link
+              href="/blog"
+              className="text-lg font-bold text-slate-300 hover:text-white hover:text-accent-amber transition-colors"
+            >
+              Blog
+            </Link>
+
+            <Link
               href="/contact"
               className="text-lg font-bold text-slate-300 hover:text-white hover:text-accent-amber transition-colors"
             >
@@ -181,6 +188,14 @@ export default function Navbar() {
                 ))}
               </div>
             </div>
+
+            <Link
+              href="/blog"
+              onClick={() => setIsOpen(false)}
+              className="block rounded-lg px-4 py-2.5 text-base font-semibold text-slate-300 hover:bg-slate-900 hover:text-accent-amber transition-all"
+            >
+              Blog
+            </Link>
 
             <Link
               href="/contact"
