@@ -150,6 +150,12 @@ export default function Footer() {
             <span className="hidden md:inline text-slate-800">|</span>
             <div className="flex gap-4">
               <Link
+                href="/blog"
+                className="hover:text-accent-amber transition-colors"
+              >
+                Blog
+              </Link>
+              <Link
                 href="/privacy-policy"
                 className="hover:text-accent-amber transition-colors"
               >

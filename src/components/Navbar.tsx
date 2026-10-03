@@ -82,13 +82,6 @@ export default function Navbar() {
             </div>
 
             <Link
-              href="/blog"
-              className="text-lg font-bold text-slate-300 hover:text-white hover:text-accent-amber transition-colors"
-            >
-              Blog
-            </Link>
-
-            <Link
               href="/contact"
               className="text-lg font-bold text-slate-300 hover:text-white hover:text-accent-amber transition-colors"
             >
