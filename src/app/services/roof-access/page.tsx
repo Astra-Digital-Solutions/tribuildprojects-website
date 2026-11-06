@@ -195,6 +195,15 @@ export default function RoofAccessPage() {
                 <h3 className="text-lg font-bold text-white">Helpful Roof Access Guides</h3>
                 <div className="grid grid-cols-1 gap-3">
                   <Link
+                    href="/blog/roof-access-scaffolding-sydney"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Roof Access Scaffolding Sydney: Access Solutions for Roofers and Builders
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Discover practical access solutions, stair towers, and planning advice for residential roof projects.</span>
+                  </Link>
+                  <Link
                     href="/blog/do-i-need-scaffolding-for-roof-repairs-in-sydney"
                     className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
                   >
