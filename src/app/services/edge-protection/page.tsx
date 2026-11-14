@@ -215,6 +215,15 @@ export default function EdgeProtectionPage() {
                 <h3 className="text-lg font-bold text-white">Helpful Edge Protection Guides</h3>
                 <div className="grid grid-cols-1 gap-3">
                   <Link
+                    href="/blog/void-protection-sydney"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Void Protection in Sydney: What Builders Need to Know for Residential Construction
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Learn how to manage internal floor openings, stairwell voids and construction fall prevention.</span>
+                  </Link>
+                  <Link
                     href="/blog/edge-protection-requirements-nsw"
                     className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
                   >
