@@ -211,6 +211,15 @@ export default function MobileScaffoldPage() {
                 <h3 className="text-lg font-bold text-white">Helpful Scaffold Hire Guides</h3>
                 <div className="grid grid-cols-1 gap-3">
                   <Link
+                    href="/blog/mobile-scaffold-hire-sydney-residential-construction"
+                    className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-accent-amber transition-colors">
+                      Mobile Scaffold Hire Sydney: A Practical Guide for Residential Builders and Tradespeople
+                    </span>
+                    <span className="text-xs text-slate-500 mt-1">Explore mobile scaffold solutions, trade applications, safety tips and planning advice for residential projects.</span>
+                  </Link>
+                  <Link
                     href="/blog/mobile-scaffold-hire-vs-fixed-scaffolding-sydney"
                     className="group flex flex-col p-4 rounded-xl border border-slate-800 bg-slate-900/20 hover:border-slate-700 transition-colors"
                   >
